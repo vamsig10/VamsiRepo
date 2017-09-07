@@ -1,0 +1,10 @@
+create or replace function Demo return integer is
+  
+	a integer;
+begin
+	a:=1;
+	
+  dbms_output.put_line('Function Demo!'); 
+  return a;
+end Demo;
+/

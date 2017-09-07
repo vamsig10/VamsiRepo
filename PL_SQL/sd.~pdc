@@ -1,0 +1,4 @@
+--execute Update_Table_VG;
+variable a number;
+execute :a:=Demo;
+print :a;
